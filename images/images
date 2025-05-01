@@ -1,0 +1,84 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unbound Exposure</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between p-4 bg-gray-900 text-white">
+    <img src="images/Untitled-1.png" alt="Unbound Exposure Logo" class="h-12">
+    <nav>
+      <a href="#services" class="px-4 hover:text-yellow-400">Services</a>
+      <a href="#lookbook" class="px-4 hover:text-yellow-400">Look Book</a>
+      <a href="#contact" class="px-4 hover:text-yellow-400">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1200x400?text=Virtual+Tours+and+Photography');">
+    <h1 class="text-5xl font-bold mb-4">Elevate Your Business Presence</h1>
+    <p class="text-xl">Professional 360 Tours, Photography, and Drone Shots for Gyms & Restaurants</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-10">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="p-6 shadow rounded-lg hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold mb-2">360 Virtual Tours</h3>
+          <p>Create immersive experiences that bring your space to life.</p>
+        </div>
+        <div class="p-6 shadow rounded-lg hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold mb-2">Professional Photography</h3>
+          <p>Capture the essence of your business with stunning imagery.</p>
+        </div>
+        <div class="p-6 shadow rounded-lg hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold mb-2">Drone Shots</h3>
+          <p>Showcase your business from breathtaking angles and heights.</p>
+        </div>
+        <div class="p-6 shadow rounded-lg hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold mb-2">Coming Soon: Lidar & 3D Rendering</h3>
+          <p>Advanced scanning and modeling for next-level presentations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Look Book -->
+  <section id="lookbook" class="py-10 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Look Book</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <img src="images/lookbook1.jpg" alt="Look Book Sample 1" class="rounded shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="images/lookbook2.jpg" alt="Look Book Sample 2" class="rounded shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="images/lookbook3.jpg" alt="Look Book Sample 3" class="rounded shadow-md hover:scale-105 transition-transform duration-300">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-10">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+      <form class="max-w-xl mx-auto grid grid-cols-1 gap-4">
+        <input type="text" placeholder="Name" class="border p-2 rounded">
+        <input type="email" placeholder="Email" class="border p-2 rounded">
+        <textarea placeholder="Message" rows="5" class="border p-2 rounded"></textarea>
+        <button type="submit" class="bg-gray-900 text-white py-2 rounded hover:bg-yellow-400 hover:text-black transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 bg-gray-900 text-white">
+    &copy; 2025 Unbound Exposure. All rights reserved.
+  </footer>
+
+</body>
+</html>
